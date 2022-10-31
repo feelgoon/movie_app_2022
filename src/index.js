@@ -2,20 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import App from './App';
-import Potato from './Potato';
 
 const nodeRoot = document.getElementById('root');
 //const root = ReactDOM.createRoot(nodeRoot);
 ReactDOM.createRoot(nodeRoot).render(
   <React.StrictMode>
     <App />
-    <Potato fav="postato chips" />
-    <Potato fav="Ramyun"/>
-    <Potato fav="Apple"/>
-    <Potato fav="Car"/>
-    <Potato fav="React"/>
-    <Potato fav="Javascript"/>
-    <Potato fav="Cola"/>
   </React.StrictMode>,
 );
 
